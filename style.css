@@ -1,0 +1,85 @@
+/* Reset and layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eaf1c8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.container {
+  background: #addeec;
+  padding: 100px 100px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Typography */
+h1, h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Input and Button */
+.input-group {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #161010;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: rgb(10, 3, 3);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #90d194;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+li {
+  background-color: #ee9c9c;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Completed styling */
+#done li {
+  background-color: #d4edda;
+  color: #155724;
+}
